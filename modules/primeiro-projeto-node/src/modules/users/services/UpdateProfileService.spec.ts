@@ -63,7 +63,7 @@ describe('UpdateProfile', () => {
       updateProfile.execute({
         user_id: user.id,
         name: 'John Doe',
-        email: 'johndoe@email.com',
+        email: 'johndoe@example.com',
       }),
     ).rejects.toBeInstanceOf(AppError);
   });

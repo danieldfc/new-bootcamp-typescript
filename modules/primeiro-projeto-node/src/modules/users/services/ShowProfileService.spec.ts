@@ -25,7 +25,7 @@ describe('ShowProfileService', () => {
     });
 
     expect(profile.name).toBe('John Doe');
-    expect(profile.email).toBe('johndoe@email.com');
+    expect(profile.email).toBe('johndoe@example.com');
   });
 
   it('should not be able to show the profile from non-existing user', async () => {
