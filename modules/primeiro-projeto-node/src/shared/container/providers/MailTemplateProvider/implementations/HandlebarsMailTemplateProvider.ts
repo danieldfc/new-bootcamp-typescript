@@ -14,7 +14,7 @@ class HandlebarsMailTemplateProvider implements IMailTemplateProvider {
       encoding: 'utf-8',
     });
 
-    const parseTemplate = handlebars.template(templateFileContent);
+    const parseTemplate = handlebars.compile(templateFileContent);
 
     return parseTemplate(variables);
   }
