@@ -36,12 +36,15 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/ban-types": "off",
+    "import/no-duplicates": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
         "allowExpressions": true
       }
     ],
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".tsx"] }
